@@ -1,0 +1,50 @@
+body{
+    background-image: url(7.png);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 15px;
+    transition: 0.6 ease;
+}
+
+ul li.active a{
+    background-color: black;
+    color: aquamarine;
+}
+
+ul li a:hover{
+    background-color: darkblue;
+    color: greenyellow;
+}
+
+h2{
+    text-decoration: underline;
+    font-family: sans-serif;
+    
+}
+
+p{
+    font-size: large;
+    font-family: sans-serif;
+}
